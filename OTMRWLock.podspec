@@ -6,5 +6,6 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/otium/OTMRWLock'
   s.author       = { 'Otium' => 'otium.dev@gmail.com' }
   s.summary      = 'Objective-C wrapper around pthread rwlock'
+  s.requires_arc = true
   s.source_files = 'OTMRWLock.{h,m}'
 end
